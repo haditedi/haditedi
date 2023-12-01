@@ -34,7 +34,7 @@ export default function Home() {
             <h1 className="text-center text-white text-center text-3xl md:text-5xl m-2 p-2">
               Project Pony Bot
             </h1>
-            <p className="w-[350px] m-2 text-lg md:text-xl">
+            <p className="w-[350px] m-2 text-lg md:text-xl text-center">
               Upload a pdf file or a website address. The AI will then use this
               information to answer questions.
             </p>
@@ -63,7 +63,7 @@ export default function Home() {
             <h1 className="text-center text-white text-center text-3xl md:text-5xl m-2 p-2">
               Project Sarcastic Bot
             </h1>
-            <p className="w-[350px] m-2 text-lg md:text-xl">
+            <p className="w-[350px] m-2 text-lg md:text-xl text-center">
               The bot reluctantly answer questions in a sarcastic way.
             </p>
             <Link href="https://tedi-ai.vercel.app" target="_blank" noreferrer>
