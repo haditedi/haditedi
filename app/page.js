@@ -107,7 +107,7 @@ export default function Home() {
         <h1 className="m-10 p-5 mb-2 text-center text-white text-center text-5xl md:text-7xl font-black">
           Contact Me
         </h1>
-        <p className="block m-2 pb-8 text-center text-lg md:text-xl">
+        <p className="block m-2 pb-8 text-center text-white text-lg md:text-xl">
           Whatsapp / call at +44 (0) 7825 372243
         </p>
       </motion.section>
