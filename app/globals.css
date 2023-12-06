@@ -4,3 +4,9 @@
 html{
   background-color: black;
 }
+
+@layer base{
+  p {
+    @apply text-white;
+  }
+}
