@@ -23,9 +23,10 @@ export default function Home() {
           initial={{ opacity: 0, x: "-10%" }}
           animate={{ opacity: 1, x: "0" }}
           transition={{ duration: 1 }}
-          className="absolute w-full mt-10 pt-10 top-10 left-3 text-white text-center text-5xl md:text-7xl font-black"
+          className="absolute w-full top-[43%] text-white text-center font-black z-10"
         >
-          HADI TEDI
+          <h1 className="text-5xl md:text-7xl">HADI TEDI</h1>
+          <p>Javascript - Python Programmer</p>
         </motion.div>
       </section>
 
@@ -34,7 +35,7 @@ export default function Home() {
           initial={{ opacity: 0, x: "10%" }}
           animate={{ opacity: 1, x: "0" }}
           transition={{ duration: 1 }}
-          className="m-10 p-5 text-center text-white text-center text-5xl md:text-7xl font-black"
+          className="m-10 p-5 text-center text-white text-5xl md:text-7xl font-black"
         >
           PORTFOLIO
         </motion.h1>
@@ -46,7 +47,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="flex flex-col justify-center items-center m-3"
           >
-            <h1 className="text-center text-white text-center text-3xl md:text-5xl m-2 p-2">
+            <h1 className="text-white text-center text-3xl md:text-5xl m-2 p-2">
               Project Pony Bot
             </h1>
             <p className="w-[350px] m-2 text-lg md:text-xl text-center">
@@ -78,7 +79,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="flex flex-col justify-center items-center m-3"
           >
-            <h1 className="text-center text-white text-center text-3xl md:text-5xl m-2 p-2">
+            <h1 className="text-white text-center text-3xl md:text-5xl m-2 p-2">
               Project Sarcastic Bot
             </h1>
             <p className="w-[350px] m-2 text-lg md:text-xl text-center">
@@ -92,6 +93,32 @@ export default function Home() {
                   height={300}
                   width={300}
                   alt="picture of project talk to pdf"
+                />
+              </Link>
+            </motion.div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: "10%" }}
+            whileInView={{ opacity: 1, y: "0" }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+            className="flex flex-col justify-center items-center m-3"
+          >
+            <h1 className="text-white text-center text-3xl md:text-5xl m-2 p-2">
+              Project Airbnb Rate Comparison
+            </h1>
+            <p className="w-[350px] m-2 text-lg md:text-xl text-center">
+              Get rates for few properties in Airbnb and make a chart.
+            </p>
+            <motion.div whileHover={{ scale: 1.1 }}>
+              <Link href="/skygarden.png" target="_blank">
+                <Image
+                  className="block rounded m-3"
+                  src="/skygarden.png"
+                  height={300}
+                  width={300}
+                  alt="chart of rate comparison"
                 />
               </Link>
             </motion.div>
