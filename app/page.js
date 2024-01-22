@@ -111,7 +111,7 @@ export default function Home() {
             <p className="w-[350px] m-2 text-lg md:text-xl text-center">
               Get rates for few properties in Airbnb and make a chart.
             </p>
-            <motion.div whileHover={{ scale: 1.1 }}>
+            <motion.div className="mb-10" whileHover={{ scale: 1.1 }}>
               <Link href="/skygarden.png" target="_blank">
                 <Image
                   className="block rounded m-3"
