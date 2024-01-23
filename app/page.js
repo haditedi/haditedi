@@ -106,10 +106,11 @@ export default function Home() {
             className="flex flex-col justify-center items-center m-3"
           >
             <h1 className="text-white text-center text-3xl md:text-5xl m-2 p-2">
-              Project Airbnb Rate Comparison
+              Project Web Scraper
             </h1>
             <p className="w-[350px] m-2 text-lg md:text-xl text-center">
-              Get rates for few properties in Airbnb and make a chart.
+              Get rates for few properties from a holiday rental website and
+              plot a chart.
             </p>
             <motion.div className="mb-10" whileHover={{ scale: 1.1 }}>
               <Link href="/skygarden.png" target="_blank">
